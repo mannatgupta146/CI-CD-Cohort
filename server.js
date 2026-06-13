@@ -25,6 +25,13 @@ app.use(morgan("dev"))
 app.use(express.json())
 
 
+// ---- Routes ----
+
+app.get("/", (req, res) => {
+  res.send("OK")
+})
+
+
 // ---- Server start ----
 
 const PORT = process.env.PORT || 3000;

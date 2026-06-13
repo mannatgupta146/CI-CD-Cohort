@@ -1,4 +1,4 @@
-import { sum } from "../jest-testing/utils.js"
+import { sum } from "../utils.js"
 
 describe("sum fuction", () => {
   test("adds 1 + 2 to equal 3", () => {
